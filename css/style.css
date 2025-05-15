@@ -1,6 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
+    background-color: #434455;
 }
 
 .header-nav {
@@ -11,11 +11,11 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #2e2f42;
+    color: #4d5ae5
 }
 
 .header-word{
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 ul {
@@ -31,7 +31,8 @@ ul {
     color: #2e2f42;
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -39,6 +40,9 @@ ul {
     color: #404bbf;
 }
 
+.header-contact{
+    font-style: normal;
+}
 .address-list {
     font-size: 16px;
     line-height: 1.5;
@@ -65,14 +69,16 @@ ul {
     color: #ffffff;
 }
 
+.main-sct {
+    color: #f4f4fd;
+}
+
 .main-section{
     text-align: center;
 }
 
 .main-button{
     cursor: pointer;
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -102,12 +108,17 @@ ul {
 }
 
 .team-title{
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.team-list{
+    background-color: #FFFFFF;
 }
 
 .team-subtitle{
@@ -126,6 +137,7 @@ ul {
 }
 
 .portfolio-title{
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -160,11 +172,11 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-word{
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 .footer-text{
     font-size: 16px;
